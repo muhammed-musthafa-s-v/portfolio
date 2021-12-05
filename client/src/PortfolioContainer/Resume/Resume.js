@@ -52,6 +52,9 @@ export default function Resume(props) {
   const programmingSkillsDetails = [
     { skill: "Python", ratingPercentage: 70 },
     { skill: "C++", ratingPercentage: 60 },
+    { skill: "DataScience", ratingPercentage: 60 },
+    { skill: "Data Analytics", ratingPercentage: 60 },
+    { skill: "Machine Learning", ratingPercentage: 60 },
     { skill: "HTML", ratingPercentage: 50 },
     { skill: "CSS", ratingPercentage: 50 },
   ];
@@ -68,17 +71,17 @@ export default function Resume(props) {
       title: "Tourist Assistant Mobile APP",
       duration: { fromDate: "2020", toDate: "2021" },
       description:
-        "An application designed to tourists to find nearest aminities",
+        "An application designed to help tourists to find nearest aminities",
       subHeading:
         "Technologies Used: Flutter, Dart, DialogFlow, Maps API, other API's.",
     },
     {
-      title: "Breast Cancer Prediction",
+      title: "Data Sciwnce and Analytics Projects",
       duration: { fromDate: "2020", toDate: "2021" },
       description:
-        "A Comparitive Study on Various Algorithms Available in Machine Learning",
+        "Projects Include EDA of various data sets, Breast Cancer Predictions, Various ML algorithms, Fake news detection, Image Classification",
       subHeading:
-        "Technologies Used: Machine Learning Algorithms - Logistic Regression, Decision Tree Classifier, Random Forest Classifier, Support Vector Classifier.",
+        "Technologies Used: EDA, Logistic Regression, KNN, Support Vector Classifier.",
     },
   ];
 
